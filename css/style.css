@@ -1,0 +1,36 @@
+/*==============================
+        VARIABLES
+==============================*/
+
+:root
+{
+    --principal:#1f3c88;
+    --secundario:#f8b400;
+    --oscuro:#1b1b1b;
+    --gris:#6c757d;
+    --claro:#f8f9fa;
+    --blanco:#ffffff;
+}
+
+/*==============================
+        GENERALES
+==============================*/
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html
+{
+    scroll-behavior:smooth;
+}
+
+body
+{
+    font-family:'Poppins',sans-serif;
+    background:var(--blanco);
+    color:var(--oscuro);
+}

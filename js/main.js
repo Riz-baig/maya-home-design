@@ -1,0 +1,1 @@
+console.log("Maya Home Design iniciada.");
