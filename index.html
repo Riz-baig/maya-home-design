@@ -1,65 +1,593 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+    <title>Maya Home Design | Textil Hogar al por Mayor</title>
 
-    <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>Maya Home Design | Venta al por Mayor</title>
-
-    <meta name="description"
-          content="Mayorista especializado en textil hogar. Sábanas, toallas, mantas, protectores y mucho más.">
+    <meta
+      name="description"
+      content="Especialistas en textil para el hogar. Venta exclusiva al por mayor de sábanas, toallas, mantas, cortinas y mucho más."
+    />
 
     <!-- Bootstrap -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-          rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap Icons -->
 
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
 
     <!-- Google Fonts -->
 
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Nuestro CSS -->
+    <!-- CSS -->
 
-    <link rel="stylesheet"
-          href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-</head>
+  <body>
+    <!--==============================
+        CABECERA
+===============================-->
 
-<body>
+    <header id="inicio">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#inicio"
+            ><img src="img/logo/logo.png" alt="Maya Home Design" class="logo"
+          /></a>
 
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio"> Inicio </a>
+              </li>
 
+              <li class="nav-item">
+                <a class="nav-link" href="#empresa"> Empresa </a>
+              </li>
 
+              <li class="nav-item">
+                <a class="nav-link" href="#productos"> Colecciones </a>
+              </li>
 
+              <li class="nav-item">
+                <a class="nav-link" href="#galeria"> Galería </a>
+              </li>
 
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto </a>
+              </li>
+            </ul>
 
-<!-- Bootstrap -->
+            <a href="#contacto" class="btn btn-danger ms-lg-4">
+              Solicitar presupuesto
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!--==================================================
+HERO
+===================================================-->
 
-<!-- JavaScript -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-contenido">
+          <!--<img
+            src="img/logo/logo.png"
+            alt="Maya Home Design"
+            class="hero-logo"
+          /> -->
 
-<script src="js/main.js"></script>
+          <h1>Textil para el hogar al por mayor</h1>
 
-<script src="js/email.js"></script>
+          <h2>Calidad, diseño y servicio para profesionales</h2>
 
-</body>
+          <p>
+            Descubra nuestra amplia colección de juegos de sábanas, toallas,
+            mantas, protectores, fundas y mucho más. Trabajamos exclusivamente
+            con venta al por mayor, ofreciendo productos de calidad y una
+            atención personalizada.
+          </p>
 
+          <div class="hero-botones">
+            <a href="#productos" class="btn btn-danger"> Ver productos </a>
+
+            <a href="#contacto" class="btn btn-outline-light">
+              Solicitar presupuesto
+            </a>
+          </div>
+
+          <div class="hero-datos">
+            <div>
+              <i class="bi bi-check-circle-fill"></i>
+
+              Venta exclusiva al por mayor
+            </div>
+
+            <div>
+              <i class="bi bi-truck"></i>
+
+              Envíos a toda España
+            </div>
+
+            <div>
+              <i class="bi bi-stars"></i>
+
+              Calidad garantizada
+            </div>
+
+            <div>
+              <i class="bi bi-headset"></i>
+
+              Atención personalizada
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--==================================================
+    EMPRESA
+===================================================-->
+
+    <section id="empresa">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6">
+            <img
+              src="img/empresa/empresa.png"
+              alt="Maya Home Design"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+
+          <div class="col-lg-6">
+            <span class="titulo-pequeno"> MAYA HOME DESIGN </span>
+
+            <h2>Especialistas en textil para el hogar</h2>
+
+            <p>
+              En Maya Home Design nos dedicamos a la distribución de productos
+              textiles para el hogar destinados exclusivamente a profesionales y
+              comercios.
+            </p>
+
+            <p>
+              Trabajamos con una amplia variedad de diseños, colores y medidas
+              para ofrecer soluciones adaptadas a las necesidades de cada
+              cliente.
+            </p>
+
+            <p>
+              Nuestro objetivo es ofrecer una excelente relación calidad-precio
+              junto con una atención cercana y un servicio rápido.
+            </p>
+
+            <a href="#contacto" class="btn btn-danger">
+              Solicitar información
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--==================================================
+    COLECCIONES
+===================================================-->
+
+    <section id="productos">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="titulo-pequeno"> NUESTRAS COLECCIONES </span>
+
+          <h2>Textil para cada espacio de tu hogar</h2>
+
+          <p>
+            Descubra nuestras principales colecciones diseñadas para ofrecer
+            calidad, confort y estilo en cada estancia del hogar.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- DORMITORIO -->
+
+          <div class="col-lg-6">
+            <div class="producto-card">
+              <img src="img/colecciones/dormitorio.png" alt="Dormitorio" />
+
+              <div class="producto-info">
+                <h3>🛏 Dormitorio</h3>
+
+                <ul>
+                  <li>Juegos de sábanas</li>
+                  <li>Fundas de almohada</li>
+                  <li>Protectores de colchón</li>
+                  <li>Mantas</li>
+                  <li>Edredones</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- BAÑO -->
+
+          <div class="col-lg-6">
+            <div class="producto-card">
+              <img src="img/colecciones/bano.png" alt="Baño" />
+
+              <div class="producto-info">
+                <h3>🚿 Baño</h3>
+
+                <ul>
+                  <li>Toallas</li>
+                  <li>Albornoces</li>
+                  <li>Juegos de baño</li>
+                  <li>Alfombras de baño</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- COCINA -->
+
+          <div class="col-lg-6">
+            <div class="producto-card">
+              <img src="img/colecciones/cocina.png" alt="Cocina" />
+
+              <div class="producto-info">
+                <h3>🍽 Cocina</h3>
+
+                <ul>
+                  <li>Delantales</li>
+                  <li>Paños de cocina</li>
+                  <li>Toallas de cocina</li>
+                  <li>Manoplas</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- SALÓN -->
+
+          <div class="col-lg-6">
+            <div class="producto-card">
+              <img src="img/colecciones/salon.png" alt="Salón" />
+
+              <div class="producto-info">
+                <h3>🛋 Salón</h3>
+
+                <ul>
+                  <li>Cubre sofás</li>
+                  <li>Manteles</li>
+                  <li>Caminos de mesa</li>
+                  <li>Cojines decorativos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--==================================================
+GALERÍA
+===================================================-->
+
+    <section id="galeria">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="titulo-pequeno"> GALERÍA </span>
+
+          <h2>Algunos de nuestros productos</h2>
+
+          <p>Una pequeña muestra de nuestras colecciones para el hogar.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <img
+              src="img/galeria/galeria1.png"
+              class="foto-galeria"
+              alt="Dormitorio"
+            />
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <img
+              src="img/galeria/galeria2.png"
+              class="foto-galeria"
+              alt="Baño"
+            />
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <img
+              src="img/galeria/galeria3.png"
+              class="foto-galeria"
+              alt="Cocina"
+            />
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <img
+              src="img/galeria/galeria4.png"
+              class="foto-galeria"
+              alt="Salón"
+            />
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <img
+              src="img/galeria/galeria5.png"
+              class="foto-galeria"
+              alt="Dormitorio"
+            />
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <img
+              src="img/galeria/galeria6.png"
+              class="foto-galeria"
+              alt="Baño"
+            />
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <img
+              src="img/galeria/galeria7.png"
+              class="foto-galeria"
+              alt="Cocina"
+            />
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <img
+              src="img/galeria/galeria8.png"
+              class="foto-galeria"
+              alt="Salón"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+<!--==================================================
+CONTACTO
+===================================================-->
+
+    <section id="contacto">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="titulo-pequeno"> CONTACTO </span>
+
+          <h2>Solicite información</h2>
+
+          <p>
+            Estaremos encantados de atender cualquier consulta sobre nuestros
+            productos o presupuestos para profesionales.
+          </p>
+        </div>
+
+        <div class="row gy-5">
+          <!-- FORMULARIO -->
+
+          <div class="col-lg-7">
+            <form id="formulario-contacto">
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <input
+                    type="text"
+                    id="nombre"
+                    class="form-control"
+                    placeholder="Nombre *"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-6 mb-4">
+                  <input
+                    type="text"
+                    id="empresa"
+                    class="form-control"
+                    placeholder="Empresa"
+                  />
+                </div>
+
+                <div class="col-md-6 mb-4">
+                  <input
+                    type="email"
+                    id="correo"
+                    class="form-control"
+                    placeholder="Correo electrónico *"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-6 mb-4">
+                  <input
+                    type="tel"
+                    id="telefono"
+                    class="form-control"
+                    placeholder="Teléfono"
+                  />
+                </div>
+
+                <div class="col-12 mb-4">
+                  <textarea
+                    id="mensaje"
+                    rows="7"
+                    class="form-control"
+                    placeholder="Escriba su mensaje..."
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn btn-danger">
+                    Enviar solicitud
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- INFORMACIÓN -->
+
+          <div class="col-lg-5">
+            <div class="info-contacto">
+              <h3>Maya Home Design</h3>
+
+              <p>
+                <i class="bi bi-geo-alt-fill"></i>
+
+                c/ Trueno, 41  POL.IND, Cobo calleja Fuenlabrada (28947)- madrid
+              </p>
+
+              <p>
+                <i class="bi bi-telephone-fill"></i>
+
+                +34 91 11 52 58 64  -  672 546 848
+              </p>
+
+              <p>
+                <i class="bi bi-envelope-fill"></i>
+
+                maya.home.design88@gmail.com
+              </p>
+
+              <hr />
+
+              <h5>Horario</h5>
+
+              <p>
+                Lunes - Viernes
+
+                <br />
+
+                09:00 - 18:00
+              </p>
+
+              <a href="#" class="btn btn-danger w-100">
+                Solicitar presupuesto
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================================================
+    FOOTER
+===================================================-->
+
+    <footer>
+      <div class="container">
+        <div class="row gy-5">
+          <!-- EMPRESA -->
+
+          <div class="col-lg-4">
+          <!-- <img
+              src="img/logo/logo.png"
+              alt="Maya Home Design"
+              class="footer-logo"
+            />--> 
+
+            <p class="mt-4">
+              Especialistas en textil para el hogar. Venta exclusiva al por
+              mayor para profesionales.
+            </p>
+          </div>
+
+          <!-- ENLACES -->
+
+          <div class="col-lg-4">
+            <h4>Enlaces</h4>
+
+            <ul class="footer-menu">
+              <li><a href="#inicio">Inicio</a></li>
+
+              <li><a href="#empresa">Empresa</a></li>
+
+              <li><a href="#productos">Colecciones</a></li>
+
+              <li><a href="#galeria">Galería</a></li>
+
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+
+          <!-- CONTACTO -->
+
+          <div class="col-lg-4">
+            <h4>Contacto</h4>
+
+            <p>
+              <i class="bi bi-telephone-fill"></i>
+
+              91 11 52 58 64  -  672 546 848
+            </p>
+
+            <p>
+              <i class="bi bi-envelope-fill"></i>
+
+              maya.home.design88@gmail.com
+            </p>
+
+            <p>
+              <i class="bi bi-geo-alt-fill"></i>
+
+              c/ Trueno, 41  POL.IND, Cobo calleja Fuenlabrada (28947)- madrid
+            </p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="copyright">
+          © 2026 Maya Home Design · Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main -->
+
+    <script src="js/main.js"></script>
+
+    <!-- EmailJS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="js/email.js"></script>
+  </body>
 </html>
